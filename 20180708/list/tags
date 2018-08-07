@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Node	main.cc	/^}Node, *pNode;$/;"	t	typeref:struct:tag	file:
+Stack	main.cc	/^}Stack, *pStack;$/;"	t	typeref:struct:__anon1	file:
+pNext	main.cc	/^	struct tag* pNext;$/;"	m	struct:tag	typeref:struct:tag::tag	file:
+pNode	main.cc	/^}Node, *pNode;$/;"	t	typeref:struct:tag	file:
+pStack	main.cc	/^}Stack, *pStack;$/;"	t	typeref:struct:__anon1	file:
+phead	main.cc	/^	pNode phead;$/;"	m	struct:__anon1	file:
+pop	main.cc	/^void pop(pStack pstack) {$/;"	f
+push	main.cc	/^void push (pStack pstack, int val) {$/;"	f
+size	main.cc	/^	int size;$/;"	m	struct:__anon1	file:
+tag	main.cc	/^typedef struct tag{$/;"	s	file:
+val	main.cc	/^	int val;$/;"	m	struct:tag	file:
